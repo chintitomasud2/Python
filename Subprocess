@@ -1,2 +1,2 @@
-import subprocesss
-subprocess.call(['ls','-l'],shell=False)
+import subprocess
+subprocess.call(['ls','-l'])
