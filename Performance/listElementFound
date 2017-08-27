@@ -1,0 +1,13 @@
+needle='d'
+haystack=['a','b','c','d']
+
+##good way
+
+for letter in haystack:
+  if needle ==letter:
+    print("found")
+    break
+else:
+   print("not  found")
+   
+   
