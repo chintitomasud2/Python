@@ -1,0 +1,11 @@
+studententry=[
+    
+    ["masud",'9133274','japan garden city','mojibur rahman','sultana razia'],
+    ["sumaiya","016217050589","mohammadpur",'rahman',"chalak ammu"],
+    ["rifat",'810155','zinzira','nurudding ahmed','haire bolod']
+    
+    
+]
+
+studentshow=pd.DataFrame(studententry,columns=['name','number','address','father_name','mother_name'])
+studentshow
